@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testApp" >
+    <test verbose="10" name="demo1">
+        <classes>
+            <class name="apptest.testcase.Case1"></class>
+        </classes>
+    </test>
+<!--     <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners> -->
+</suite>
